@@ -1,0 +1,244 @@
+/* Reset de estilos */
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Estilos do header */
+  
+  header {
+    background-color: #ffffff;
+    padding: 20px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 999;
+  }
+  
+  .navbar-brand img {
+    height: 40px;
+  }
+  
+  .navbar-toggler {
+    border: none;
+  }
+  
+  .nav-link {
+    color: #000000;
+  }
+  
+  .nav-link:hover {
+    color: #ff6600;
+  }
+  
+  .navbar-nav .nav-link.active,
+  .navbar-nav .nav-link.active:hover {
+    background-color: transparent;
+    color: #ff6600;
+    border-bottom: 2px solid #ff6600;
+  }
+  
+  .navbar-nav .nav-link.btn {
+    margin-left: 10px;
+  }
+  
+  .navbar-nav .nav-link.btn-warning {
+    color: #ffffff;
+    background-color: #ff6600;
+    border-color: #ff6600;
+  }
+  
+  .navbar-nav .nav-link.btn-warning:hover {
+    background-color: #ff6600;
+    border-color: #ff6600;
+  }
+  
+  /* Estilos da seção "implante-dental" */
+  
+  #implante-dental {
+    padding: 120px 0;
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    color: #ffffff;
+  }
+  
+  #implante-dental .titulo {
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  #implante-dental .descricao {
+    font-size: 24px;
+    margin-bottom: 30px;
+  }
+  
+  /* Estilos das seções "sobre" */
+  
+  #sobre {
+    padding: 80px 0;
+  }
+  
+  #sobre .conteudo-sobre {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+  }
+  
+  #sobre .titulo {
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  #sobre .titulo-secao {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  #sobre .informacoes-doutor {
+    font-size: 18px;
+    margin-bottom: 20px;
+  }
+  
+  /* Estilos das seções "PerguntasFrequentes" */
+  
+  #PerguntasFrequentes {
+    padding: 80px 0;
+    background-color: #f7f7f7;
+  }
+  
+  #PerguntasFrequentes .titulo-secao {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 30px;
+  }
+  
+  #PerguntasFrequentes .nav-link {
+    color: #000000;
+    background-color: transparent;
+    border: none;
+  }
+  
+  #PerguntasFrequentes .nav-link.active,
+  #PerguntasFrequentes .nav-link.active:hover {
+    color: #ff6600;
+    border-bottom: 2px solid #ff6600;
+  }
+  
+  #PerguntasFrequentes .tab-content img {
+    width: 60px;
+    height: 60px;
+    margin-bottom: 20px;
+  }
+  
+  #PerguntasFrequentes .tab-content h3 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  #PerguntasFrequentes .tab-content p {
+    font-size: 18px;
+    margin-bottom: 20px;
+  }
+  
+  #PerguntasFrequentes .accordion-button {
+    background-color: #ffffff;
+    color: #000000;
+    border: none;
+    border-bottom: 1px solid #f7f7f7;
+    padding: 20px;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: left;
+    cursor: pointer;
+  }
+  
+  #PerguntasFrequentes .accordion-button.collapsed {
+    background-color: #f7f7f7;
+  }
+  
+  #PerguntasFrequentes .accordion-collapse {
+    background-color: #f7f7f7;
+  }
+  
+  #PerguntasFrequentes .accordion-collapse .card-body {
+    padding: 20px;
+  }
+  
+  /* Estilos do footer */
+  
+  footer {
+    background-color: #000000;
+    color: #ffffff;
+    padding: 40px;
+    text-align: center;
+  }
+  
+  .footer-link {
+    color: #ffffff;
+  }
+  
+  .footer-link:hover {
+    color: #ff6600;
+  }
+  
+  /* Estilos gerais */
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+  
+  .section-title {
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 40px;
+  }
+  
+  .section-subtitle {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  .section-content {
+    font-size: 18px;
+    margin-bottom: 30px;
+  }
+  
+  .button {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    color: #ffffff;
+    background-color: #ff6600;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .button:hover {
+    background-color: #ff8533;
+  }
+  
+  .button-secondary {
+    color: #ffffff;
+    background-color: transparent;
+    border: 2px solid #ffffff;
+  }
+  
+  .button-secondary:hover {
+    color: #ff6600;
+    background-color: #ffffff;
+  }

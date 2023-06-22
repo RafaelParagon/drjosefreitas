@@ -1,0 +1,393 @@
+
+
+    /* Reset de estilos */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    
+
+/* Estilos gerais */
+  
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.section-title {
+  font-size: 36px;
+  font-weight: bold;
+  margin-bottom: 40px;
+}
+
+.section-subtitle {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.section-content {
+  font-size: 18px;
+  margin-bottom: 30px;
+}
+
+.button {
+  display: inline-block;
+  padding: 10px 20px;
+  font-size: 18px;
+  font-weight: bold;
+  text-align: center;
+  text-decoration: none;
+  color: #ffffff;
+  background-color: #ff6600;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.button:hover {
+  background-color: #ff8533;
+}
+
+.button-secondary {
+  color: #ffffff;
+  background-color: transparent;
+  border: 2px solid #ffffff;
+}
+
+.button-secondary:hover {
+  color: #ff6600;
+  background-color: #ffffff;
+}
+    
+  /* Estilos do header */
+  
+  header {
+    background-color: #ffffff;
+    padding: 20px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 999;
+  }
+  
+  .navbar-brand img {
+    height: 40px;
+  }
+  
+  .navbar-toggler {
+    border: none;
+  }
+  
+  .nav-link {
+    color: #000000;
+  }
+  
+  .nav-link:hover {
+    color: #ff6600;
+  }
+  
+  .navbar-nav .nav-link.active,
+  .navbar-nav .nav-link.active:hover {
+    background-color: transparent;
+    color: #ff6600;
+    border-bottom: 2px solid #ff6600;
+  }
+  
+  .navbar-nav .nav-link.btn {
+    margin-left: 10px;
+  }
+  
+  .navbar-nav .nav-link.btn-warning {
+    color: #ffffff;
+    background-color: #ff6600;
+    border-color: #ff6600;
+  }
+  
+  .navbar-nav .nav-link.btn-warning:hover {
+    background-color: #ff6600;
+    border-color: #ff6600;
+  }
+    
+    /* Estilos do botão no menu */
+    .menu li a.btn-menu {
+      background-color: orange;
+      border-radius: 20px;
+      padding: 20px 16px;
+    }
+    
+    /* Estilos da seção Home */
+    #home {
+      background-color: #f5f5f5;
+      text-align: center;
+      padding: 20px 1px;
+    }
+    
+    #home .container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+    }
+    
+    #home .titulo {
+      font-size: 32px;
+      margin-top: 150px;
+      margin-bottom: 20px;
+    }
+    
+    #home .descricao {
+      font-size: 18px;
+      margin-bottom: 20px;
+    }
+    
+    #home .btn-agendar {
+      background-color: #ff6600;
+      color: #fff;
+      padding: 10px 20px;
+      text-decoration: none;
+      border-radius: 5px;
+    }
+    
+    #home .imagem-destaque {
+      margin-top: 20px;
+      border-radius: 10px;
+      max-width: 100%;
+      height: auto;
+    }
+
+    #implante-dental {
+      padding: 120px 0;
+      background-size: cover;
+      background-position: center;
+      text-align: center;
+      color: #ffffff;
+    }
+    
+    #implante-dental .titulo {
+      font-size: 36px;
+      font-weight: bold;
+      margin-bottom: 20px;
+    }
+    
+    #implante-dental .descricao {
+      font-size: 24px;
+      margin-bottom: 30px;
+    }
+
+    /* Estilos da seção Perguntas Frequentes. */
+    #PerguntasFrequentes {
+      padding: 80px 0;
+      background-color: #f7f7f7;
+    }
+    
+    #PerguntasFrequentes .titulo-secao {
+      font-size: 24px;
+      font-weight: bold;
+      margin-bottom: 30px;
+    }
+    
+    #PerguntasFrequentes .nav-link {
+      color: #000000;
+      background-color: transparent;
+      border: none;
+    }
+    
+    #PerguntasFrequentes .nav-link.active,
+    #PerguntasFrequentes .nav-link.active:hover {
+      color: #ff6600;
+      border-bottom: 2px solid #ff6600;
+    }
+    
+    #PerguntasFrequentes .tab-content img {
+      width: 60px;
+      height: 60px;
+      margin-bottom: 20px;
+    }
+    
+    #PerguntasFrequentes .tab-content h3 {
+      font-size: 24px;
+      font-weight: bold;
+      margin-bottom: 20px;
+    }
+    
+    #PerguntasFrequentes .tab-content p {
+      font-size: 18px;
+      margin-bottom: 20px;
+    }
+    
+    #PerguntasFrequentes .accordion-button {
+      background-color: #ffffff;
+      color: #000000;
+      border: none;
+      border-bottom: 1px solid #f7f7f7;
+      padding: 20px;
+      font-size: 18px;
+      font-weight: bold;
+      text-align: left;
+      cursor: pointer;
+    }
+    
+    #PerguntasFrequentes .accordion-button.collapsed {
+      background-color: #f7f7f7;
+    }
+    
+    #PerguntasFrequentes .accordion-collapse {
+      background-color: #f7f7f7;
+    }
+    
+    #PerguntasFrequentes .accordion-collapse .card-body {
+      padding: 20px;
+    }
+  
+    /* Estilos da seção Tratamentos */
+    #tratamentos {
+      background-color: rgb(255, 255, 255);
+      text-align: center;
+      border-radius: 15px;
+      padding: 50px 0;
+    }
+    
+    #tratamentos .titulo-secao {
+      font-size: 24px;
+      font-weight: bold;
+      margin-bottom: 30px;
+    }
+    
+    #tratamentos .nav-link {
+      color: #000000;
+      background-color: transparent;
+      border: none;
+    }
+    
+    #tratamentos .nav-link.active,
+    #tratamentos .nav-link.active:hover {
+      color: #ff6600;
+      border-bottom: 2px solid #ff6600;
+    }
+    
+    #tratamentos .tab-content img {
+      width: 60px;
+      height: 60px;
+      margin-bottom: 20px;
+    }
+    
+    #tratanentos .tab-content h3 {
+      font-size: 24px;
+      font-weight: bold;
+      margin-bottom: 20px;
+    }
+    
+    #tratamentos .tab-content p {
+      font-size: 18px;
+      margin-bottom: 20px;
+    }
+    
+    #tratamentos .accordion-button {
+      background-color: #ffffff;
+      color: #000000;
+      border: none;
+      border-bottom: 1px solid #f7f7f7;
+      padding: 20px;
+      font-size: 18px;
+      font-weight: bold;
+      text-align: left;
+      cursor: pointer;
+    }
+
+    #tratamentos .btn-warning {
+      background-color: #ff6600;
+      color: white;
+    }
+    
+    #tratamentos .accordion-button.collapsed {
+      background-color: #f7f7f7;
+    }
+    
+    #tratamentos .accordion-collapse {
+      background-color: #f7f7f7;
+    }
+    
+    #tratamentos .accordion-collapse .card-body {
+      padding: 20px;
+    }
+    
+    /* Estilos da seção Localização */
+    #localizacao {
+      background-color: #f5f5f5;
+      border-radius: 15px;
+      text-align: center;
+      padding: 50px 0;
+    }
+    
+    #localizacao .titulo-secao {
+      font-size: 24px;
+      margin-bottom: 20px;
+    }
+    
+    #localizacao iframe {
+      width: 100%;
+      height: 600px;
+
+    }
+    
+    #localizacao .endereco {
+      font-size: 18px;
+    }
+    
+    /* Estilos da seção Sobre */
+    #sobre {
+      padding: 80px 0;
+    }
+    
+    #sobre .conteudo-sobre {
+      max-width: 800px;
+      margin: 0 auto;
+      text-align: center;
+    }
+    
+    #sobre .titulo {
+      font-size: 36px;
+      font-weight: bold;
+      margin-bottom: 20px;
+    }
+    
+    #sobre .titulo-secao {
+      font-size: 24px;
+      font-weight: bold;
+      margin-bottom: 20px;
+    }
+    
+    #sobre .informacoes-doutor {
+      font-size: 18px;
+      margin-bottom: 20px;
+    }
+    /* Estilos do Footer */
+    footer {
+      background-color: orange;
+      border-radius: 15px;
+      color: #fff;
+      text-align: center;
+      padding: 20px 0;
+    }
+    footer .logo-footer img {
+      width: 200px;
+      height: auto;
+      margin-bottom: 10px;
+    }
+    
+    footer .redes-sociais a{
+      width: 70px;
+      scale: 2;
+      color: white;
+      height: 10px;
+      margin: 0 5px;
+    }
+    
+    footer .direitos-autorais {
+      font-size: 14px;
+      margin-top: 10px;
+    }
